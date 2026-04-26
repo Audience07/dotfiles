@@ -2,8 +2,7 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-/*  font-family: JetBrainsMono Nerd Font;  */
-  font-family: Hack Nerd Font Mono;
+  font-family: JetBrainsMono Nerd Font;
   font-size: 13px;
 }
 
@@ -82,12 +81,15 @@ window#waybar.hidden {
 }
 
 #memory {
-  color: inherit;
   background-color: #fab387;
 }
 
+#cpu{
+  background-color: #abc5f2;
+}
+
 #temperature{
-  background-color: #f9b387;
+  background-color: #ef9ae0;
 }
 
 #battery {
@@ -120,8 +122,7 @@ window#waybar.hidden {
 }
 
 #clock {
-  /*font-family: JetBrainsMono Nerd Font;*/
-  font-family: Hack Nerd Font Mono;
+  font-family: JetBrainsMono Nerd Font;
   background-color: #cba6f7;
 }
 
